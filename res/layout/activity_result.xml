@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/mbg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_result"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/yes_result" />
+
+    <ImageView
+        android:id="@+id/image_result2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/yes_result2" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="    虽然买不起首页图片上的戒指，但是还是想跟你说，情人节快乐，我爱你。买一根手链迎财神，转转运，祝你工作顺利，么么么：）" />
+
+</LinearLayout>

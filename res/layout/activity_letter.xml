@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/letter_bg" >
+
+    <ListView
+        android:id="@+id/letter_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:clickable="false"
+        android:divider="@null"
+        android:layout_margin="15dp"
+        android:drawSelectorOnTop="false"
+        android:focusable="false"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>
